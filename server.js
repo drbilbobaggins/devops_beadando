@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Helló Föld!');
+  res.send('Helló Föld!<br>Ja, és szia, Hold!!<br>Bocsi, Szíriusz, neked is szép napot!');
 });
 
 app.listen(port, () => {
