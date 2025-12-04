@@ -1,0 +1,7 @@
+```text
+node_modules
+npm-debug.log
+.git
+.vscode
+Dockerfile
+.gitignore

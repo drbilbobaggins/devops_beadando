@@ -31,3 +31,19 @@ npm install
 npm start
 
 Böngészőben megnyitható: http://localhost:8080
+
+## Docker használata
+
+Az alkalmazás Docker konténerben is futtatható.
+
+A projekt gyökerében futtassa:
+
+```bash
+docker build -t devops_beadando:latest .
+
+Az image futtatása:
+
+docker run -p 8080:8080 devops_beadando:latest
+
+Utána elérhető ugyanitt:
+http://localhost:8080
