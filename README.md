@@ -46,6 +46,7 @@ A GitHub Actions CI pipeline minden `master` branchre történő push után auto
 3. feltölti az image-et a Docker Hubra.
 
 Az image a Docker Hubon található, itt: `mrbaggins/devops_beadando:latest`
+(teljes eléréssel: https://hub.docker.com/repository/docker/mrbaggins/devops_beadando/general)
 
 Image lehúzása és futtatása a Docker Hubról:
 

@@ -10,5 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-# 5. Indítás
 CMD ["npm", "start"]
